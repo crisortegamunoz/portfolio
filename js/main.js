@@ -40,8 +40,8 @@ function makeTimer() {
 	if (seconds < '10') { seconds = `0${seconds}`; }
 
 	$("#days").html(`${days}<h6>Días</h6>`);
-	$("#hours").html(`${hours}<h6>Días</h6>`);
-	$("#minutes").html(`${minutes}<h6>Días</h6>`);
+	$("#hours").html(`${hours}<h6>Horas</h6>`);
+	$("#minutes").html(`${minutes}<h6>Mins</h6>`);
 }
 setInterval(function() { makeTimer(); }, 1000);
 
