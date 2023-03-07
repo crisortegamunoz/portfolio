@@ -5,9 +5,15 @@
 * Version: 1.5.0
 */
 
+
+
 (function($) {
 "use strict";
     // Portfolio subpage filters
+    function footer() {
+        const year = new Date().getFullYear();
+        $("#rights").html(`© ${year} All rights reserved.`);
+    }
     function portfolio_init() {
         var portfolio_grid = $('.portfolio-grid'),
             portfolio_filter = $('.portfolio-filters');
@@ -120,6 +126,7 @@
 
     // On Document Load
     $(document).ready(function () {
+        footer();
         var movementStrength = 23;
         var height = movementStrength / $(document).height();
         var width = movementStrength / $(document).width();
