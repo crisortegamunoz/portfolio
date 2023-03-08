@@ -321,3 +321,8 @@
     });
 
 })(jQuery);
+
+const openNewTabCerticate = (url) => {
+    window.open(url, '_blank');
+}
+
