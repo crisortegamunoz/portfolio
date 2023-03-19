@@ -1,0 +1,76 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1 id="projectName">Portafolio API 3.0</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/portfolio/2.jpg" alt="Logo API Portafolio" />
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Descripción</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p id="creationDate"><i class="fa fa-calendar"></i>25-11-2020</p></li>
+                    </ul>
+
+                    <p id="description" class="text-justify">Hice esta Api después como ejercicio una vez terminé un curso de Spring Boot. Básicamente migré el consumo de datos desde Firebase a Java. La construcción del proyecto fue con Gradle, Java 11, PostgreSQL, algunos proyectos propios de Spring (JPA Repository, Web, Security)., y además, utilicé Heroku para desplegar el aplicativo y pudiera ser consumido por la parte frontend.
+                        Al tener el proyecto como repositorio privado lo perdí al igual que mi portafolio (frontend). Lo bueno es que el diseño de la base de datos lo guarde aparte así que tengo como rehacerlo nuevamente (Y lo haré).
+                        </p>
+                    <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Tecnologías</h3>
+                        </div>
+                        <ul class="knowledges">
+                            <li>Git</li>
+                            <li>Java</li>
+                            <li>PostgreSQL</li>
+                            <li>Spring Boot</li>
+                            <li>Spring JPA</li>
+                            <li>Spring Web</li>
+                            <li>Spring Security</li>
+                            <li>Heroku</li>
+                          </ul>
+                    </div>
+                    <!-- /Technology -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>

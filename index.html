@@ -1,95 +1,1105 @@
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-		<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Building page">
-        <meta name="keywords" content="Coming Soon, Portfolio, Resume, Proyects, Courses, Programming, Software, Technologies, IT, backend, frontend">
-        <meta name="author" content="webpuls.org">
-		
-        <title>Cristian Ortega - Portfolio</title>
-		
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
-        <script src="js/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-	
-	<div id="preloader">
-		<div id="global">
-			<div id="top" class="mask">
-				<div class="plane"></div>
-			</div>
-			<div id="bottom" class="mask">
-				<div class="plane"></div>
-			</div>
-			<p><i>Cargando...</i></p>
-		</div>
-	</div>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>CO - Portfolio - CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="CristianOrtega - Resume / CV / Portfolio" />
+    <meta name="keywords" content="vcard, responsive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-	<div class="wrap main-bg table-div">
-		<div class="view-box d-cell">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-3 position">
-						<div class="social-box-bot clearfix">
-							<ul>
-								<li>
-									<a href="https://github.com/crisortegamunoz" data-toggle="tooltip" data-placement="top" title="Sigueme en GitHub">
-										<i class="fa fa-github"></i>
-									</a>
-								</li>
-								<li>
-									<a href="https://www.linkedin.com/in/crisortega/" data-toggle="tooltip" data-placement="top" title="Sigueme en Linkedin">
-										<i class="fa fa-linkedin"></i>
-									</a>
-								</li>
-								<!--<li>
-									<a href="#" data-toggle="tooltip" data-placement="top" title="Sigueme en">
-										<i class="fa fa-instagram"></i>
-									</a>
-								</li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="col-xs-12 col-md-9">
-						<div class="main-content">
-							<div class="countdown main-time clearfix">
-								<div id="timer">
-									<div id="days"></div>
-									<div id="hours"></div>
-									<div id="minutes"></div>
-								</div>
-							</div>
-							
-							<div class="md-headline clearfix">
-								<h1>¡Portafolio en desarrollo!</h1>
-								<p>Hola! Me llamo Cristian Ortega soy ingeniero en informática, me desenvuelvo como desarrollador de software en una empresa de Insurtech.
-								Actualmente soy líder de un equipo de desarrollo, entre mis tareas se encuentra análizar, desarrollar y delegar tareas para mejorar, mantener o desarrollar nuevas funcionalidades
-								para mejorar el software de la empresa.</p>
-								<br/>
-								<p>Para mi mala suerte perdí acceso a mi cuenta principal de github, por ese motivo tengo que desarrollar mi portafolio de nuevo. El lado positivo 
-									es poder rehacerlo desde 0, con un nuevo diseño y probando nuevas tecnologías.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
-	
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/avoid.js"></script>
-	<script src="js/prognroll.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/main.js"></script>
-    </body>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+  </head>
+
+  <body>
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <!-- /Animated Background -->
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div class="page">
+      <div class="page-content">
+
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="img/main_photo.jpg" alt="Cristian Ortega">
+              </div>
+              <div class="header-titles">
+                <h2>Cristian Ortega</h2>
+                <h4>Software Developer</h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              <li class="active">
+                <a href="#home" class="nav-anim">
+                  <span class="menu-icon lnr lnr-home"></span>
+                  <span class="link-text">Inicio</span>
+                </a>
+              </li>
+              <li>
+                <a href="#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user"></span>
+                  <span class="link-text">Sobre mí</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume" class="nav-anim">
+                  <span class="menu-icon lnr lnr-graduation-hat"></span>
+                  <span class="link-text">Currículum</span>
+                </a>
+              </li>
+              <li>
+                <a href="#certificate" class="nav-anim">
+                  <span class="menu-icon lnr lnr lnr-license"></span>
+                  <span class="link-text">Certificados</span>
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="nav-anim">
+                  <span class="menu-icon lnr lnr-briefcase"></span>
+                  <span class="link-text">Portafolio</span>
+                </a>
+              </li>
+              <!--<li>
+                <a href="#contact" class="nav-anim">
+                  <span class="menu-icon lnr lnr-envelope"></span>
+                  <span class="link-text">Contacto</span>
+                </a>
+              </li>-->
+            </ul>
+
+            <div class="social-links">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/crisortega/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/crisortegamunoz" target="_blank"><i class="fab fa-github"></i></a></li>
+              </ul>
+            </div>
+
+            <div id="rights" class="copyrights"></div>
+          </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+          <!-- Arrows Nav -->
+          <div class="lmpixels-arrows-nav">
+            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+          </div>
+          <!-- End Arrows Nav -->
+
+          <div class="content-area">
+            <div class="animated-sections">
+              <!-- Home Subpage -->
+              <section data-id="home" class="animated-section start-page">
+                <div class="section-content vcentered">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="title-block">
+                          <h2>Cristian Ortega</h2>
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle">Software Developer</div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="sp-subtitle">FullStack</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </section>
+              <!-- End of Home Subpage -->
+
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Sobre <span>Mí</span></h2>
+                  </div>
+
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <p>¡Hola! Me llamo Cristian, soy desarrollador FullStack. Me encanta estar involucrado en el mundo de la informática creando aplicaciones y aprendiendo nuevas tecnologías.</p>
+                      <p>Disfruto de los paseos en bicicleta o caminatas en cerros y, de vez en cuando, leer algún libro. Como hobbies me gusta entrenar y aprender nuevas cosas.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="info-list">
+                        <ul>
+                          <li>
+                            <span class="title">Edad</span>
+                            <span class="value">30</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Residencia</span>
+                            <span class="value">Chile</span>
+                          </li>
+                          <li>
+                            <span class="title">Teléfono </span>
+                            <span class="value">+56 9 9643 6811</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Services -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Mi <span>Día a día</span></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-apartment"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>InsurTech</h4>
+                              <p>Ayudando a la industria aseguradora desarrollando plataformas de alto rendimiento, facilitando a la vida a las personas para obtener sus seguros.</p>
+                            </div>
+                          </div>
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-laptop-phone"></i>
+                            </div><div class="ci-text">
+                              <h4>Desarrollo</h4>
+                              <p>Dedicado a crear, mantener y mejorar las funcionalides de las distintas plataformas de la compañía.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-pencil"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Toma de requerimientos</h4>
+                              <p>Continua participación en reuniones con los clientes, viendo la factibilidad de sus requerimientos para implementarlos en la plataforma.</p>
+                            </div>
+                          </div>
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-users"></i>
+                            </div><div class="ci-text">
+                              <h4>Gestión de equipo</h4>
+                              <p>Guiando y retroalimentando a los miembros del equipos en pro del cumplimiento de metas, priorizando la eficiencia y prolijidad.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Services -->
+                </div>
+              </section>
+              <!-- End of About Me Subpage -->
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Currículum</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+
+                      <div class="block-title">
+                        <h3>Educación</h3>
+                      </div>
+                      
+                      <div class="timeline timeline-second-style clearfix">
+                        <!--<div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2023</h5>
+                            <span class="item-company">Universidad de Chile</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Frontend Development</h4>
+                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                          </div>
+                        </div>-->
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2012-2015</h5>
+                            <span class="item-company">DuocUC</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Ingeniería Informática</h4>
+                            <p>Titulado en Instituto Profesional Duoc UC – Sede Antonio Varas.
+                              Con preparación para el desarrollo de software, gestión de proyectos y arquitectura de software.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="white-space-50"></div>
+
+                      <div class="block-title">
+                        <h3>Experiencia</h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2022 - Actual</h5>
+                            <span class="item-company">Clave Tecnología</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Líder de equipo</h4>
+                            <p>Gestión de software, Guiando y retroalimentando (Liderando) compañeros y equipos de alto rendimientos en pro del cumplir metas, priorizando la eficiencia y prolijidad.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2016-2022</h5>
+                            <span class="item-company">Clave Tecnología</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">FullStack Developer</h4>
+                            <p>Desarrollo de software para la industria aseguradora desempeñandome como desarrollador FullStack.</p>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2015</h5>
+                            <span class="item-company">Telefónica Chile</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Testing QA</h4>
+                            <p>Encargado de realizar y ejecutar pruebas en la diferentes aplicaciones mobiles de la compañia para asegurar la calidad de estas.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="col-xs-12 col-sm-5">
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Coding Skills -->
+                      <div class="block-title">
+                        <h3>Coding <span>Skills</span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 5 -->
+                        <div class="skill clearfix">
+                          <h4>JavaScript</h4>
+                          <div class="skill-value">80%</div>
+                        </div>
+                        <div class="skill-container skill-6">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 5 -->
+
+                        <!-- Skill 6 -->
+                        <div class="skill clearfix">
+                          <h4>TypeScript</h4>
+                          <div class="skill-value">80%</div>
+                        </div>
+                        <div class="skill-container skill-6">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 6 -->
+                        
+                        <!-- Skill 7 -->
+                        <div class="skill clearfix">
+                          <h4>Angular</h4>
+                          <div class="skill-value">70%</div>
+                        </div>
+                        <div class="skill-container skill-8">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 7 -->
+                        
+                        <!-- Skill 8 -->
+                        <div class="skill clearfix">
+                          <h4>Java</h4>
+                          <div class="skill-value">70%</div>
+                        </div>
+                        <div class="skill-container skill-8">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 8 -->
+
+                        <!-- Skill 9 -->
+                        <div class="skill clearfix">
+                          <h4>Oracle/PostgreSQL</h4>
+                          <div class="skill-value">70%</div>
+                        </div>
+                        <div class="skill-container skill-8">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 9 -->
+                      </div>
+                      <!-- End of Coding Skills -->
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Knowledges -->
+                      <div class="block-title">
+                        <h3>Conocimientos</h3>
+                      </div>
+
+                      <ul class="knowledges">
+                        <li>Git</li>
+                        <li>Maven</li>
+                        <li>Jenkins</li>
+                        <li>ExtJS</li>
+                        <li>Atlassian</li>
+                        <li>Metodologías Ágiles</li>
+                        <li>Gestión de tiempo</li>
+                        <li>Comunicación</li>
+                        <li>Problem-Solving</li>
+                        <li>Flexibilidad</li>
+                      </ul>
+                      <!-- End of Knowledges -->
+                    </div>
+                    <!-- End of Skills & Certificates -->
+                  </div>
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+
+              <!-- Certificate Subpage -->
+              <section data-id="certificate" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Certificados</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Certificate Content -->
+                      <div class="portfolio-content">
+                        <!-- Certificate Grid -->
+                        <div class="row">
+                          <!-- Curso JavaScript Profesionalr-->
+                          <div class="col-xs-12 col-sm-6" data-groups='["category_all", "category_soundcloud"]'>
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-11-02_JavaScript_Profesional.png" alt="logo Curso JavaScript Profesional">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-11-02_JavaScript_Profesional.png?alt=media&token=ffe885fd-d0cd-4d8c-82dd-1268b12e9234')">
+                                <div class="certi-title">
+                                  <h4>Curso JavaScript Profesional</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>02/11/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Curso JavaScript Profesional-->
+                          <!-- Curso Frontend Developer-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-07-15_frontend-developer.png" alt="logo Curso Frontend Developer">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-07-15_frontend-developer.png?alt=media&token=f796b5a6-ba7c-405c-b208-3158bb62109b')">
+                                <div class="certi-title">
+                                  <h4>Curso Frontend Developer</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>15/07/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Curso Frontend Developer-->
+                          <!-- Curso Angular-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-06-30_Angular.png" alt="logo Curso de Angular Escalab">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-06-30_Angular.png?alt=media&token=149a88b7-95fe-4509-9bd9-2cd87f4b4250')">
+                                <div class="certi-title">
+                                  <h4>Curso de Angular Escalab</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>30/06/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Curso Angular-->
+                          <!-- Curso Asincronismo-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-06-27_Asincronismo-js.png" alt="logo Curso de Asincronismo JavaScript">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-06-27_Asincronismo-js.png?alt=media&token=a0d45812-cf08-4dd8-bc00-497fca9f756d')">
+                                <div class="certi-title">
+                                  <h4>Curso de Asincronismo JavaScript</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>27/06/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Curso Asincronismo-->
+                          <!-- Curso ECMAScript 6-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-06-22_Ecmascript-6.png" alt="logo Curso de ECMAScript 6">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-06-22_Ecmascript-6.png?alt=media&token=964ccdd9-4d2e-4749-a60f-3f322d420cd0')">
+                                <div class="certi-title">
+                                  <h4>Curso de ECMAScript 6</h4>
+                                  <br/>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>22/06/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Curso ECMAScript 6-->
+                          <!-- Curso Fundamentos JavaScript-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-06-17_Fundamentos-javascript.png" alt="logo Curso Fundamentos JavaScript">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-06-17_Fundamentos-javascript.png?alt=media&token=13a52e8d-83fe-4a21-a3e4-9a7a0fcf2295')">
+                                <div class="certi-title">
+                                  <h4>Curso Fundamentos JavaScript</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>17/06/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Curso Fundamentos JavaScript-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-05-28-Basico-javascript.png" alt="logo Curso Básico JavaScript">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-05-28-Basico-javascript.png?alt=media&token=39832677-8167-43f0-87cc-f4540a163edd')">
+                                <div class="certi-title">
+                                  <h4>Curso Básico JavaScript</h4>
+                                  <br/>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>28/05/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso Básico JavaScript -->
+                          <!-- Curso de Angular-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-04-13_Angular.png" alt="logo Curso de Angular">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-04-13_Angular.png?alt=media&token=93ec0de2-6542-400f-993c-3659032018b6')">
+                                <div class="certi-title">
+                                  <h4>Curso de Angular</h4>
+                                  <br/>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>13/04/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso de Angular -->
+                          <!-- Curso de Java Spring-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020_12_04_Java-Spring.png" alt="logo Curso de Java Spring">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020_12_04_Java-Spring.png?alt=media&token=6faec247-0eb6-442d-9069-d5da27e6e05e')">
+                                <div class="certi-title">
+                                  <h4>Curso de Java Spring</h4>
+                                  <br/>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>04/12/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso de Java Spring -->
+                          <!-- Curso de Persistencia Java -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020_11_12_Java_Persistencia.png" alt="logo Curso de Persistencia en Java">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020_11_12_Java_Persistencia.png?alt=media&token=64062cc0-cfa8-4ee4-9357-1cc69466920e')">
+                                <div class="certi-title">
+                                  <h4>Curso de Persistencia en Java</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>12/11/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso de Persistencia Java -->
+                          <!-- Curso de TypeScript Angular-->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2020-01-07_Typescript-angular.png" alt="logo Curso de TypeScript Angular">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2020-01-07_Typescript-angular.png?alt=media&token=d2d45989-e478-4bf2-a4be-ffe8b6d1d559')">
+                                <div class="certi-title">
+                                  <h4>Curso de TypeScript Angular</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>07/01/2020</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso de TypeScript Angular -->
+                          <!-- Curso de Java Testing -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2019-03-14_Java_Testing.png" alt="logo Curso de Java Testing">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2019-03-14_Java_Testing.png?alt=media&token=aa803c59-fcfd-49ee-94f5-63f19ab6e2ac')">
+                                <div class="certi-title">
+                                  <h4>Curso de Java Testing</h4>
+                                  <br/>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>14/03/2019</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso de Java Testing -->
+                          <!-- Curso de Java Hibernate y Spring -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2019-02-06_Java_Spring.png" alt="logo Curso de Java Hibernate y Spring">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2019-02-06_Java_Spring.png?alt=media&token=47fbc832-0e5a-44e4-b54a-8db8a50ed513')">
+                                <div class="certi-title">
+                                  <h4>Curso de Java Hibernate y Spring</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>06/02/2019</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso de Java Spring -->
+                          <!-- Curso Desarrollo Web -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2018-12-26_Responsive_Design.png" alt="logo Curso Responsive Design">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2018-12-26_Responsive_Design.png?alt=media&token=65369c53-1cc4-402b-b8cb-d1055bcbb0a8')">
+                                <div class="certi-title">
+                                  <h4>Curso Responsive Design</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>26/12/2018</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso Desarrollo Web -->
+                          <!-- Curso Desarrollo Web -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2018-11-26_CSS_Grid_Layout.png" alt="logo Curso CSS Grid Layout">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2018-11-26_CSS_Grid_Layout.png?alt=media&token=907be8f4-c801-4b21-be5b-c5ab1610aeef')">
+                                <div class="certi-title">
+                                  <h4>Curso CSS Grid Layout</h4>
+                                  <br/>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>26/11/2018</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso Desarrollo Web -->
+                          <!-- Curso Desarrollo Web -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2018-10-15_Desarrollo_Web.png" alt="logo Curso de Desarrollo Web">
+                              </div>
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2018-10-15_Desarrollo_Web.png?alt=media&token=78267dc4-d9e8-4691-855c-b7d69893d606')">
+                                <div class="certi-title">
+                                  <h4>Curso de Desarrollo Web</h4>
+                                  <br/>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>15/10/2018</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- FIN Curso Desarrollo Web -->
+      
+                          <!-- Java Avanzado -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2018-06-18_Java-avanzado.png" alt="logo Curso de Java Avanzado SE">
+                              </div>
+                              
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2018-06-18_Java-avanzado.png?alt=media&token=bbd1d566-4638-4e24-af88-d16abdcb7ecc')">
+                                <div class="certi-title">
+                                  <h4>Curso de Java Avanzado SE</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>18/06/2018</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Fin Java Avanzado -->
+                          <!-- Java Profesional -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2018-02-15_Java_Profesional.png" alt="logo Curso Profesional de Java EE">
+                              </div>
+                              
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2018-02-15_Java_Profesional.png?alt=media&token=2da8f663-c7aa-45fe-b41b-ae421e490f2e')">
+                                <div class="certi-title">
+                                  <h4>Curso Profesional de Java EE</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>15/02/2018</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Fin Java Profesional -->
+                          <!-- Java Basico -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2018-01-08_Java_Basico.png" alt="logo Curso Básico de Java SE">
+                              </div>
+                              
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2018-01-07_Java_Basico.png?alt=media&token=2f84bbe6-6e42-42ba-8448-9b1c4ff76095')">
+                                <div class="certi-title">
+                                  <h4>Curso Básico de Java SE</h4>
+                                  <br/>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>08/01/2018</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Fin Java Basico -->
+                          <!-- Git y GitHub -->
+                          <div class="col-xs-12 col-sm-6">
+                            <div class="certificate-item clearfix">
+                              <div class="certi-logo">
+                                <img src="img/certificate/2017-12-26_Git_Github.png" alt="logo Curso Profesional Git y Github">
+                              </div>
+                              
+                              <div class="certi-content" onclick="openNewTabCerticate('https://firebasestorage.googleapis.com/v0/b/portfolio-crisortega.appspot.com/o/images%2Fcertificate%2F2017-12-26_Git.png?alt=media&token=53ae07bc-2aab-45ff-809d-a5e228d1d709')">
+                                <div class="certi-title">
+                                  <h4>Curso Profesional Git y Github</h4>
+                                </div>
+                                <div class="certi-id">
+                                  <a><span>Ver diploma</span></a>
+                                </div>
+                                <div class="certi-date">
+                                  <span>26/12/2017</span>
+                                </div>
+                                <div class="certi-company">
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Fin Git y GitHub -->
+                        </div>
+                      </div>
+                      <!-- End of Certificate Content -->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Certificate Subpage -->
+
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Portfolio</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_professional">Profesionales</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_laboratoy">Laboratorio</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/PAC.jpg" alt="Logo Seguros Generales" title="" />
+                              <a href="description/12.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Seguros Generales</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/CLL.jpg" alt="Logo Siniestros" title="" />
+                              <a href="description/11.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Siniestros</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/KML.png" alt="Logo Kamaleon" title="" />
+                              <a href="description/10.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Kamaleón</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_laboratoy"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/2.jpg" alt="Logo API Portafolio 3.0" title="" />
+                              <a href="description/1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">API Portafolio 3.0</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_laboratoy"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/1.png" alt="Logo Portafolio 3.0" title="" />
+                              <a href="description/2.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Portafolio 3.0</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/PAS.png" alt="Logo Seguros Garantia" title="" />
+                              <a href="description/9.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Seguros Garantía</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/MKC.jpg" alt="Logo Campañas Comerciales" title="" />
+                              <a href="description/8.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Campañas Comerciales</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_laboratoy"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/3.png" alt="Logo Rick & Morty" title="" />
+                              <a href="description/3.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Rick & Morty</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/PRA.jpg" alt="Logo Convenios Comerciales" title="" />
+                              <a href="description/7.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Convenios Comerciales</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/AGL.jpg" alt="Logo Seguros de Vida" title="" />
+                              <a href="description/4.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Seguros de Vida</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/AGC.jpg" alt="Logo Líneas Comerciales" title="" />
+                              <a href="description/5.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Líneas Comerciales</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_professional"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/COL.jpeg" alt="Logo Cobranza" title="" />
+                              <a href="description/6.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Cobranza</h4>
+                            <span class="category">Ver más</span>
+                          </figure>
+
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
+    <script src="js/portfolio-data.js"></script>
+
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src='js/perfect-scrollbar.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
