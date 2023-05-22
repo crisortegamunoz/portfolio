@@ -1457,6 +1457,7 @@ textarea.form-control, textarea.form-control:focus {
 .certi-id {
   font-size: .9em;
   color: #777;
+  cursor:pointer;
 }
 
 .certi-date {
